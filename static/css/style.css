@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar-brand i {
+    font-size: 1.5rem;
+}
+
+header {
+    background: linear-gradient(135deg, #1e5799 0%, #207cca 100%);
+    padding: 80px 0;
+    color: white;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#conversion-result, #historical-result {
+    transition: all 0.3s ease;
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #0d6efd;
+}
+
+/* Contact Section */
+#contact .card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#contact .card-body {
+    padding: 2rem;
+}
+
+#contact .card-title {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 0;
+}
+
+footer a {
+    color: #6c757d;
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* API Documentation Styles */
+.endpoint-card {
+    border-left: 4px solid #61affe;
+    transition: transform 0.2s;
+}
+
+.endpoint-card:hover {
+    transform: translateY(-5px);
+}
+
+.badge-get {
+    background-color: #61affe;
+    color: white;
+}
+
+pre {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+    .sticky-top {
+        position: static;
+    }
+    header {
+        padding: 60px 0;
+    }
+}
